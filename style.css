@@ -88,9 +88,8 @@ nav a {
   article button {
     margin-top: 1rem;
     background: hsl(224, 93%, 58%);
-    font-size: 20px;
-    padding: 13px;
-    border-radius: 20px;
+    font-size: 15px;
+    padding: 15px;
     width: auto;
     border: none;
     color: white;
@@ -214,12 +213,12 @@ nav a {
 
   .contact2 input {
     padding: 15px;
-    font-size: 35px;
     margin-top: 1rem;
 }
 
   .contact2 button {
     padding: 10px;
+    font-size: 15px;
     background: hsl(224, 93%, 58%);
     border: none;
     color: rgb(255, 255, 255);
