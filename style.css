@@ -86,10 +86,9 @@ nav a {
   }
 
   article button {
-    margin-top: 1rem;
     background: hsl(224, 93%, 58%);
-    font-size: 15px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 10px;
     width: auto;
     border: none;
     color: white;
@@ -113,8 +112,9 @@ nav a {
 
   .call-to-action {
     display: flex;
-    gap:10px;
-    width: fit-content;
+    width: auto;
+    gap: 14px;
+    flex-direction: column;
   }
 
   article input:active {
