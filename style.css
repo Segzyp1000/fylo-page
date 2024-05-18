@@ -1,0 +1,352 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
+body {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+ 
+ }
+
+li {
+  list-style: none; 
+ }
+
+ p {
+  font-size: 18px;
+ }
+ 
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  }
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+
+  .tag  {
+    margin-top: 4px;
+    gap: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    flex-direction: row;
+    margin-left: 0.5rem;
+
+}
+
+   section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: auto;
+    
+  }
+
+  article {
+    width: auto;
+    margin-top: 10rem;
+
+  }
+
+  article h1 {
+    font-size: 31px;
+    font-weight: bold;
+  }
+
+  article p {
+    margin-top: 1rem;
+
+  }
+
+  article button {
+    margin-top: 1rem;
+    background: hsl(224, 93%, 58%);
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    width: auto;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  article button:hover {
+    background: hsl(239, 33%, 35%);
+    
+  }
+
+  article input {
+    margin-top: 2rem;
+    padding: 10px;
+    width: auto;
+  
+  
+    
+  }
+
+  .call-to-action {
+    display: flex;
+    gap:10px;
+    width: fit-content;
+  }
+
+  article input:active {
+    border-color: #e43030;
+  }
+
+  .wrapper  img {
+    width: 70%
+  }
+
+  .third-parag  {
+    background-image: url(./images/illustration-2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 4rem;
+    padding: 2rem;
+
+  }
+
+  .about1 {
+    width: 60%;
+    margin-top: 20px;
+    
+  }
+
+  .leader {
+    margin-top: 10px;
+  }
+
+  .lead {
+    margin-top: 10px;
+    
+  }
+
+  .about1 a {
+    color: hsl(170, 45%, 43%);
+    padding-top: 2rem;
+  }
+
+  .about2 {
+    width: 20%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin-top: 2rem;
+    border: #e43030;
+  }
+
+  .about2 img {
+    border-radius: 100%;
+  }
+
+  .about3 {
+    display: flex;
+    margin-top: 2rem;
+    gap:10px
+  }
+
+.about3 img {
+  width: 60px;
+}
+
+.about3 p {
+  margin-top: 10px;
+}
+
+
+.contact {
+    margin-top: 10rem;
+    background:hsl(238, 22%, 44%); 
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: auto;
+    display: flex;
+    
+}
+
+.contact1 p {
+    margin-top: 1rem;
+    max-width: 70%;
+    
+  
+
+}
+
+
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+  .contact2 input {
+    padding: 15px;
+    font-size: 35px;
+    margin-top: 1rem;
+}
+
+  .contact2 button {
+    padding: 10px;
+    background: hsl(224, 93%, 58%);
+    border: none;
+    color: rgb(255, 255, 255);
+} 
+
+   footer {
+    background: hsl(243, 87%, 12%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.footer-list {
+  padding: 12px;
+}
+
+.footer-list ul {
+  margin-top: 1rem;
+}
+
+.footer-list li {
+  margin-top: 1rem;
+
+}
+
+.footerlisted {
+  display: flex;
+  gap: 20px;
+}
+  .footer-list1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem; 
+    gap: 20px;
+}
+
+  .footer-list1 a {
+    color: #fff;
+}
+
+  .footer-list2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem; 
+    gap: 20px;
+}
+
+  .footer-list2 a {
+    color: #fff;
+}
+
+  .socials i {
+   color: #fff;
+   margin-top: 4rem;
+   margin-left: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+    width: auto;
+    display: flex;
+   
+  }
+  .tag {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+
+
+  .call-to-action {
+
+    flex-direction: column;
+    gap: 20px
+  }
+
+  article button {
+    width: auto;
+    
+  } 
+
+  article input {
+    width: auto;
+  } 
+
+  .about1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+    
+  }
+  .about2 p{
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .socials i {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerlisted {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+ 
