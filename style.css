@@ -335,15 +335,23 @@ nav a {
     flex-direction: column;
   }
 
-  .socials i {
+  
+
+  footer {
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
 
   .footerlisted {
     display: flex;
-    flex-direction: column;
-  }
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  } 
 
 }
 
