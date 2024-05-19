@@ -334,6 +334,10 @@ nav a {
 
     
   }
+
+  .about2 {
+    width: 39%;
+  }
   .about2 p{
     width: auto;
     display: flex;
