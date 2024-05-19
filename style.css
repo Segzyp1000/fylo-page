@@ -214,15 +214,26 @@ nav a {
   .contact2 input {
     padding: 15px;
     margin-top: 1rem;
+    width: auto;
 }
 
   .contact2 button {
     padding: 10px;
-    font-size: 15px;
     background: hsl(224, 93%, 58%);
     border: none;
     color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: auto;
 } 
+
+ .error-message {
+  color: red;
+  margin-top: 10px;
+ }
+
+.contact2 button:hover {
+  background: hsl(224, 21%, 46%);
+}
 
    footer {
     background: hsl(243, 87%, 12%);
