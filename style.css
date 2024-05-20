@@ -3,7 +3,7 @@
 body {
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    background: url(./images/bg-curve-desktop.svg);
+   
 }
 
 * {
@@ -123,15 +123,19 @@ nav a {
   }
 
   .wrapper img {
+    width: 70%;
+  }
+
+  .wrapper2 img {
     width: 70%
   }
 
   .third-parag  {
-    background-image: url(./images/illustration-2.svg);
-    background-position: center;
+    background: url(./images/bg-curve-desktop.svg);
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
+    
     margin-top: 4rem;
     padding: 2rem;
 
@@ -140,6 +144,7 @@ nav a {
   .about1 {
     width: 60%;
     margin-top: 20px;
+    display: flex;
     
   }
 
@@ -159,7 +164,7 @@ nav a {
 
   .about2 {
     width: 20%;
-    background: rgb(255, 255, 255);
+    background: rgb(237, 235, 235);
     box-shadow: 0px 0px 0px rgba(254, 254, 254, 0.1);
     padding: 30px;
     margin-top: 2rem;
@@ -291,9 +296,11 @@ nav a {
 }
 
 @media screen and (max-width: 375px) {
-  body {
+  
+   .third-parag {
     background: url(./images/bg-curve-mobile.svg);
-  }
+   }
+
   .logo {
     width: auto;
     display: flex;
@@ -301,6 +308,10 @@ nav a {
   }
   .tag {
     display: none;
+  }
+
+  .about1 {
+    flex-direction: column-reverse;
   }
   
 }
@@ -331,7 +342,7 @@ nav a {
   .about1 {
     width: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
     align-content: center;
