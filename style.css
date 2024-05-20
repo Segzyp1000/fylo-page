@@ -123,12 +123,13 @@ nav a {
   }
 
   .wrapper img {
-    width: 70%;
+    width: 79%;
+    margin-top: 5rem;
   }
 
-  .wrapper2 img {
-    width: 70%
-  }
+ .wrapper2 img {
+    width: 91%
+  } 
 
   .third-parag  {
     background: url(./images/bg-curve-desktop.svg);
@@ -295,10 +296,7 @@ nav a {
 }
 
 @media screen and (max-width: 375px) {
-  
-   .third-parag {
-    background: url(./images/bg-curve-mobile.svg);
-   }
+
 
   .logo {
     width: auto;
